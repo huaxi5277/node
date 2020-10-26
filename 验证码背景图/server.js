@@ -4,7 +4,6 @@ const path = require('path')
 const app = express()
 
 app.use(express.static(__dirname + '/'))
-console.log(__dirname + '/')
 function Canvas(){
     return createCanvas(...arguments)
 }
